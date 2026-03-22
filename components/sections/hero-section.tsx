@@ -158,10 +158,10 @@ export function HeroSection({ description }: HeroSectionProps) {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.7 }}
             >
-              {[
-                { value: '500+', label: isRTL ? 'عميل' : 'Clients' },
-                { value: '30+', label: isRTL ? 'دولة' : 'Countries' },
-                { value: '98%', label: isRTL ? 'رضا العملاء' : 'Satisfaction' }
+              {/* {[
+                // { value: '500+', label: isRTL ? 'عميل' : 'Clients' },
+                // { value: '30+', label: isRTL ? 'دولة' : 'Countries' },
+                // { value: '98%', label: isRTL ? 'رضا العملاء' : 'Satisfaction' }
               ].map((stat, i) => (
                 <div key={i} className="text-center">
                   <div className="text-2xl md:text-3xl font-bold text-[#D5A849] mb-1">
@@ -171,7 +171,7 @@ export function HeroSection({ description }: HeroSectionProps) {
                     {stat.label}
                   </div>
                 </div>
-              ))}
+              ))} */}
             </motion.div>
           </motion.div>
 
